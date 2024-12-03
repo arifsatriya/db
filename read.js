@@ -8,6 +8,6 @@ db.query(sql, function (err, result) {
     console.log(`ID \t NAMA \t\t\t ALAMAT`);
     console.log(`----------------------------------------------------------`);
     result.forEach((pelanggan) => {
-        console.log(`${pelanggan.id} \t ${pelanggan.nama} \t\t\t ${pelanggan.alamat}`);
+        console.log(`${pelanggan.No} \t ${pelanggan.Nama_Mhs} \t\t\t ${pelanggan.Asal_Daerah}`);
     });
 });
