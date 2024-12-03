@@ -1,4 +1,4 @@
-const db = require("./db_datasiswa"); // digunakan untuk menuliskan nama database milik masing-masing
+const db = require("./db_config"); 
 const sql = "SELECT * FROM tbmahasiswa";// digunakan untuk menuliskan nama tabel milik masing-masing
 
 db.query(sql, function (err, result) {
